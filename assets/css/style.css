@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+body{
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+.service-heading{
+	text-align: center;
+	margin-top: 5%;
+}
+.service-heading h2{
+	font-size: 30px;
+	font-weight: 700;
+	position: relative;
+}
+.service-heading h2:after{
+	content: '';
+  background: url(../img/bottom.png);
+  width: 100%;
+  position: absolute;
+  background-repeat: no-repeat;
+  top: 50px;
+  left: 48%;
+  height: 10px;
+}
+.service-heading p{
+	color: #696868;
+}
+.service-section-content{
+	display: flex;
+}
+
+.service-item{
+	width: 30%;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 65px;
+}
+.service-item h4{
+	font-size: 20px;
+	font-weight: 600;
+}
+.service-item p{
+	width: 80%;
+	margin: 0 auto;
+	color: #696868;
+	line-height: 30px;
+}
+
+.service-section-content:first-child .service-item:first-child{
+	margin-top: 68px;
+}
+.service-section-content:last-child .service-item:last-child{
+	margin-top: 71px;
+}
+.service-section-content:last-child .service-item:first-child{
+	margin-top: 66px;
+}
