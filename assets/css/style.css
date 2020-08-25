@@ -46,13 +46,3 @@ body{
 	color: #696868;
 	line-height: 30px;
 }
-
-.service-section-content:first-child .service-item:first-child{
-	margin-top: 68px;
-}
-.service-section-content:last-child .service-item:last-child{
-	margin-top: 71px;
-}
-.service-section-content:last-child .service-item:first-child{
-	margin-top: 66px;
-}
