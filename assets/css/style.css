@@ -15,13 +15,13 @@ body{
 }
 .service-heading h2:after{
 	content: '';
-  background: url(../img/bottom.png);
-  width: 10%;
-  position: absolute;
-  background-repeat: no-repeat;
-  top: 50px;
-  left: 48%;
-  height: 10px;
+  	background: url(../img/bottom.png);
+  	width: 10%;
+  	position: absolute;
+  	background-repeat: no-repeat;
+  	top: 50px;
+  	left: 48%;
+  	height: 10px;
 }
 .service-heading p{
 	color: #696868;
