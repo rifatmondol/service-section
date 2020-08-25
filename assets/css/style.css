@@ -16,7 +16,7 @@ body{
 .service-heading h2:after{
 	content: '';
   background: url(../img/bottom.png);
-  width: 100%;
+  width: 10%;
   position: absolute;
   background-repeat: no-repeat;
   top: 50px;
